@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="NicolasKirrmann" constructor="GantProgressTimeline" version="0.0.01" display-name-key="Nki GantProgress Timeline" description-key="A timeline based chronological view of range items with progress" control-type="standard">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+      <data-set name="dataSetGrid" display-name-key="GantProgressTimeline">
+	  </data-set>
+    <resources>
+      <code path="index.ts" order="1"/>      
+      <css path="dist/tm-net.min.css" order="1" />      
+      <!-- UNCOMMENT TO ADD MORE RESOURCES
+      <css path="css/BasicTimeline.css" order="1" />
+      <resx path="strings/BasicTimeline.1033.resx" version="1.0.0" />
+      -->
+    </resources>
+  </control>
+</manifest>
